@@ -115,13 +115,13 @@ $(document).ready(function() {
   var countB = 0;
   var countC = 0;
   function select(answer) {
-    if (answer === "A") {
+    if (answer === "SIM") {
       userAnswers.push("A");
       countA += 1;
-    } else if (answer === "B") {
+    } else if (answer === "NÃO") {
       userAnswers.push("B");
       countB += 1;
-    } else if (answer === "C") {
+    } else if (answer === "TALVEZ") {
       userAnswers.push("C");
       countC += 1;
     }
