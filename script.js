@@ -20,15 +20,15 @@ $(document).ready(function() {
 // MOSTRAR VÍDEO
   function createVideo(id) {
     $('.main').empty();
-    $('.main').html(`<div class="show-video"><h1>Que beleza!</h1><iframe width='80%' height='315' src='https://www.youtube.com/embed/${id}' frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`);
+    $('.main').html(`<div class="show-video"><h1>Que beleza!</h1><iframe width='80%' height='315' allow="autoplay; encrypted-media" src='https://www.youtube.com/embed/${id}/?autoplay=1' frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`);
   }
 
 // INICIAR QUIZ
   var userAnswers = [];
 
-  $('.question-1').html("Quer tc?");
-  $('.question-2').html("Nomidade?");
-  $('.question-3').html("Como vc é?");
+  $('.question-1').html("Hoje é dia de maldade?");
+  $('.question-2').html("É hoje que você vai usar aquele shortinho?");
+  $('.question-3').html("Posso jogar água pra você passar o rodo?");
 
   window.onload = question1(), question2(), question3();
 
