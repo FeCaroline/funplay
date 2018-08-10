@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="pt_br">
   <head>
     <meta charset="utf-8">
-    <title>Fun Play</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <title>FunPlay</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Belleza|Cabin+Sketch|Dancing+Script|Flamenco|Fredoka+One|Gaegu|Julius+Sans+One|Lemon|Mallanna|Marvel|Montserrat+Subrayada|Overpass+Mono|Pompiere|Rubik+Mono+One|Russo+One|Sigmar+One|Tenor+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Fun Play</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log Out</button>
-          </form>
+    <main>
+      <div class="header">
+          <img class="logo" src="funplay.png">
+      </div>
+      <div class="choice-a-rhythm">
+        <button class="funk-button">funk</button>
+        <button class="brega-button">brega</button>
+        <button class="sertanejo-button">sertanejo</button>
+        <button class="nerd-button">nerd</button>
+        <button class="romance-button">romance</button>
+        <button class="se-achani-button">se-achani</button>
+      </div>
+      <div class="quiz">
+        <h2 class="quiz-title">Oi, miga, qual é a vibe de hoje?</h2>
+        <div class="quiz-questions">
+          <div class="q-1">
+            <h4 class="question-1"></h4>
+            <select class="answer-1" id="answer-1">
+              <option>Escolha uma opção</option>
+              <option class="A">A</option>
+              <option class="B">B</option>
+              <option class="C">C</option>
+            </select>
+          </div>
+          <div class="q-2">
+            <h4 class="question-2"></h4>
+            <select class="answer-2" id="answer-2">
+              <option>Escolha uma opção</option>
+              <option class="A">A</option>
+              <option class="B">B</option>
+              <option class="C">C</option>
+            </select>
+          </div>
+          <div class="q-3">
+            <h4 class="question-3"></h4>
+            <select class="answer-3" id="answer-3">
+              <option>Escolha uma opção</option>
+              <option class="A">A</option>
+              <option class="B">B</option>
+              <option class="C">C</option>
+            </select>
+          </div>
         </div>
-      </nav>
-
-      <script type="text/javascript" src="./js/data.js"></script>
+        <div class="result">
+          <button class="result-button">Veja o seu resultado</button>
+        </div>
+      </div>
+      <div class="play-video"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
