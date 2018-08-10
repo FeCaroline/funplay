@@ -5,35 +5,42 @@
 }
 
 body {
-  background: linear-gradient(white, orange, red, purple);
+  background:
+  linear-gradient(#FF876C, #EF65A9, #9D59D5);
+  background-repeat: no-repeat;
   margin: 0 auto;
   width: 100vw;
   height: 100vh;
-  font-family: 'Montserrat', sans-serif;
-    display: grid;
+  font-family: 'Montserrat', sans-serif;,
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 15% 10% 75%;
   grid-template-areas:
-    "header"
-    "choice-a-rhythm"
-    "quiz";
-/*  padding: 0px 10px;*/
+  "header"
+  "choice-a-rhythm"
+  "quiz";
 }
 
+.logo{
+  padding: 20px;
+}
 button {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  background-color: white;
-  border-radius: 3px;
-  padding: 5px;
+  background-color: #9D59D5;
+  border-radius: 20px;
+  padding: 10px 15px;
   margin: 10px;
+  border: 0;
+  color: #fff;
+}
+button:hover{
+  background-color: #764b9a;
 }
 
-.main {
-
-}
 
 .header {
+  background: #fff;
   grid-area: header;
 }
 

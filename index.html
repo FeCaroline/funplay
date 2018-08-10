@@ -1,63 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-  <head>
-    <meta charset="utf-8">
-    <title>FunPlay</title>
-    <link rel="stylesheet" type="text/css" href="./css/app.css">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Belleza|Cabin+Sketch|Dancing+Script|Flamenco|Fredoka+One|Gaegu|Julius+Sans+One|Lemon|Mallanna|Marvel|Montserrat+Subrayada|Overpass+Mono|Pompiere|Rubik+Mono+One|Russo+One|Sigmar+One|Tenor+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800" rel="stylesheet">
-  </head>
-  <body>
-      <div class="header">
-        <img class="logo" src="funplay.png">
-      </div>
-    <main class="main">
-<!--       <div class="choice-a-rhythm">
-        <button class="funk-button">funk</button>
-        <button class="brega-button">brega</button>
-        <button class="sertanejo-button">sertanejo</button>
-        <button class="nerd-button">nerd</button>
-        <button class="romance-button">romance</button>
-        <button class="se-achani-button">se-achani</button>
-      </div> -->
-      <div class="quiz">
-        <h2 class="quiz-title">Oi, miga, qual é a vibe de hoje?</h2>
-        <div class="quiz-questions">
-          <div class="q-1">
-            <h4 class="question-1"></h4>
-            <select class="answer-1" id="answer-1">
-              <option>Escolha uma opção</option>
-              <option class="A">A</option>
-              <option class="B">B</option>
-              <option class="C">C</option>
-            </select>
-          </div>
-          <div class="q-2">
-            <h4 class="question-2"></h4>
-            <select class="answer-2" id="answer-2">
-              <option>Escolha uma opção</option>
-              <option class="A">A</option>
-              <option class="B">B</option>
-              <option class="C">C</option>
-            </select>
-          </div>
-          <div class="q-3">
-            <h4 class="question-3"></h4>
-            <select class="answer-3" id="answer-3">
-              <option>Escolha uma opção</option>
-              <option class="A">A</option>
-              <option class="B">B</option>
-              <option class="C">C</option>
-            </select>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <title>FunPlay</title>
+  <link rel="stylesheet" type="text/css" href="./css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Belleza|Cabin+Sketch|Dancing+Script|Flamenco|Fredoka+One|Gaegu|Julius+Sans+One|Lemon|Mallanna|Marvel|Montserrat+Subrayada|Overpass+Mono|Pompiere|Rubik+Mono+One|Russo+One|Sigmar+One|Tenor+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="funplay.png" width="280" alt="FunPlay">
+      </a>
+    </nav>
+  </div>
+  <main class="main">
+    <div class="quiz">
+      <h2 class="quiz-title">Oi, miga, qual é a vibe de hoje?</h2>
+      <div class="quiz-questions">
+        <div class="q-1">
+          <h4 class="question-1"></h4>
+          <select class="answer-1" id="answer-1">
+            <option>Escolha uma opção</option>
+            <option class="A">A</option>
+            <option class="B">B</option>
+            <option class="C">C</option>
+          </select>
         </div>
-        <div class="result">
-          <button class="result-button">Veja o seu resultado</button>
+        <div class="q-2">
+          <h4 class="question-2"></h4>
+          <select class="answer-2" id="answer-2">
+            <option>Escolha uma opção</option>
+            <option class="A">A</option>
+            <option class="B">B</option>
+            <option class="C">C</option>
+          </select>
+        </div>
+        <div class="q-3">
+          <h4 class="question-3"></h4>
+          <select class="answer-3" id="answer-3">
+            <option>Escolha uma opção</option>
+            <option class="A">A</option>
+            <option class="B">B</option>
+            <option class="C">C</option>
+          </select>
         </div>
       </div>
-      <div class="play-video"></div>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+      <div class="result">
+        <button class="btn result-button ">Veja o seu resultado</button>
+      </div>
+    </div>
+    <div class="play-video"></div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
 </html>
