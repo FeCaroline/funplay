@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *, *:before, *:after {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -74,3 +75,9 @@ footer{
   background-color: black;
 
 }
+=======
+.navbar-brand{
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+>>>>>>> 8d70d0e2b4b60b012db5276ed11f404fb7feca91
