@@ -10,6 +10,14 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% 10% 75%;
+  grid-template-areas:
+    "header"
+    "choice-a-rhythm"
+    "quiz";
+/*  padding: 0px 10px;*/
 }
 
 button {
@@ -21,17 +29,8 @@ button {
   margin: 10px;
 }
 
-main {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 15% 10% 75%;
-  grid-template-areas:
-    "header"
-    "choice-a-rhythm"
-    "quiz";
-/*  padding: 0px 10px;*/
+.main {
+
 }
 
 .header {
@@ -61,7 +60,10 @@ main {
   align-items: center;
 }
 
-/*.logo {
-  width: 180px;
-  height: 100px;
-}*/
+.show-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
